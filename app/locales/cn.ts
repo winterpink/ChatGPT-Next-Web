@@ -484,7 +484,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "这里是鹅老师，有什么可以帮你的吗，额度不足时请联系管理员放行：",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -495,7 +495,7 @@ const cn = {
     },
   },
   Copy: {
-    Success: "已写入剪切板",
+    Success: "嘎嘎，已写入剪切板",
     Failed: "复制失败，请赋予剪切板权限",
   },
   Download: {
